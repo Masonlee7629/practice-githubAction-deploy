@@ -61,4 +61,4 @@ jobs:
         aws deploy create-deployment --application-name be-77-Masonlee7629
         --deployment-config-name CodeDeployDefault.AllAtOnce
         --deployment-group-name be-77-Masonlee7629-group
-        --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=practice-deploy.zi
+        --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=practice-deploy.zip
